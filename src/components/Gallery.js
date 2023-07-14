@@ -14,11 +14,11 @@ const Gallery = () => {
   }, []);
 
   const sections = {
-    homes: properties.filter(item => item.property_type == "Home"),
-    vacation: properties.filter(item => item.property_type == "Villa"),
-    rental: properties.filter(item => item.property_type == "Rental unit"),
-    bungalow: properties.filter(item => item.property_type == "Bungalow"),
-    apartment: properties.filter(item => item.property_type == "Apartment"),
+    homes: properties.filter(item => item.property_type === "Home"),
+    vacation: properties.filter(item => item.property_type === "Villa"),
+    rental: properties.filter(item => item.property_type === "Rental unit"),
+    bungalow: properties.filter(item => item.property_type === "Bungalow"),
+    apartment: properties.filter(item => item.property_type === "Apartment"),
     other: properties.filter(item => item.property_type !== "Home" && item.property_type !== "Villa" && item.property_type !== "Rental unit" && item.property_type !== "Bungalow" && item.property_type !== "Apartment" && item.property_type !== "Guesthouse"),
   };
 
