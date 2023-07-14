@@ -40,10 +40,11 @@ const Home = () => {
 
   return (
     <div>
+      <h1>Welcome to the Gallery App</h1>
       {rows.map((row, index) => (
         <div key={index} style={{ display: 'flex' }}>
           {row.map((photo) => (
-            <div key={photo.id} style={{ flex: 1, padding: '10px' }}>
+            <div className="gallery" key={photo.id} style={{ flex: 1, padding: '10px' }}>
               <img src={photo.img_cover} alt={photo.title} style={{ width: '100%' }} />
               <h4>{photo.title}</h4>
               <p>{photo.album}</p>

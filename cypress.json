@@ -1,1 +1,11 @@
-{}
+{
+    "baseUrl": "https://oauth-kilonzifaith6-9ee2b:2362ca22-240e-4923-9939-eaed47528c44@ondemand.eu-central-1.saucelabs.com:443/wd/hub",
+    "env": {
+      "CYPRESS_VIDEO_COMPRESSION": "true",
+      "sauce": {
+        "username": "oauth-kilonzifaith6-9ee2b",
+        "accessKey": "2362ca22-240e-4923-9939-eaed47528c44"
+      }
+    }
+  }
+  

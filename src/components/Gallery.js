@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Image from '../images/home_unsplash.jpg';
 
 const Gallery = () => {
   const [properties, setProperties] = useState([]);
